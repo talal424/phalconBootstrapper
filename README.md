@@ -42,7 +42,7 @@ $loader = new \Phalcon\Loader();
  */
 
 // this is very important the path to our PhalconBoot
-defined('LIB_PATH') || define('LIB_PATH', BASE_PATH . '/../phalcon_lib/');
+defined('LIB_PATH') || define('LIB_PATH', BASE_PATH . '/../phalconBootstrapper/');
 
 $loader->registerNamespaces(
     [
