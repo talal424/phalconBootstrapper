@@ -16,6 +16,23 @@ download or clone then move the phalconBootstrapper directory to you root path
 
 where the other phalcon projects are, then make the changes
 
+# Directory structure:
+
+* www
+* * Phalcon_project_1
+* * Phalcon_project_2
+* * Phalcon_project_3
+* * Phalcon_project_4
+* * phalconBootstrapper ( our handler location - can be renamed @ constant LIB_PATH (loader.php))
+* * * PhalconBootstrapper.php
+* * * Traits
+* * * * PhalconDirs.php
+* * * * PhalconFiles.php
+* * * * PhalconNamespaces.php
+* * * * PhalconServices.php
+* * * * PhalconClasses.php
+
+
 # Changes
 
 ## app/config/services.php
